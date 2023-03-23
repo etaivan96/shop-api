@@ -19,6 +19,8 @@ exports.register = async (req, res) => {
       password: hashedPass,
     });
 
+    console.log("Test");
+
     const result = await newUser.save();
 
     if (result) {
