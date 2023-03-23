@@ -4,10 +4,10 @@ const mongooose = require("mongoose");
 const dotenv = require("dotenv");
 const userRoutes = require("./routes/user.routes");
 
-dotenv.config();
+require("dotenv").config();
 
 mongooose
-  .connect(process.env.MONGO_DB_URI)
+  .connect(process.env.MONGO_URI)
   .then(() => console.log("Database connected"))
   .catch((err) => console.log(err));
 

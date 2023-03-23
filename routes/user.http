@@ -4,7 +4,7 @@ POST http://localhost:9000/api/user
 Content-Type: application/json
 
 {
-  "email":"Oyuka1@gmail.com",
+  "email":"etaidfvan96sdgqw@gmail.com",
   "password":"qweqwe"
 }
 
@@ -14,11 +14,16 @@ POST http://localhost:9000/api/login
 Content-Type: application/json
 
 {
-  "email":"Oyuka1@gmail.com",
+  "email":"etaivan96sdgqw@gmail.com",
   "password":"qweqwe"
 }
 
+###
 
+POST http://localhost:9000/api/userall
+Content-Type: application/json
 
-
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0MWE3YWZiMTk0ZmU5MWVhZWUxNTY3MiIsImVtYWlsIjoiZXRhaXZhbjk2c2RncXdAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkeTBENmhkL3ZMWWxEcVU5eFRqRndydVpLWkU2ZkJMSFBmV0tubVFGNjJZZTdvTHNkZjluSEciLCJfX3YiOjB9LCJpYXQiOjE2Nzk0NTc2MzMsImV4cCI6MTY3OTQ2NDgzM30.JAQ4LG1RkUMHvm_Gq8XEw0J2v4dQ1ISNizKAIE1bXew"
+}
 
